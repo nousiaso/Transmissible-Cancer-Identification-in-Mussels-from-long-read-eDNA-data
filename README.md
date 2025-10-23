@@ -11,6 +11,9 @@ from ONT whole-genome/environmental DNA. The pipeline uses:
 > gates (primary-only, MAPQ≥threshold, locus-specific aligned length, identity≥threshold).
 > Apparent BTN2 hits that vanish under these gates are considered **multi-mappers / non-evidence**.
 
+*The main source of the data is the paper: Marisa A Yonemitsu Rachael M Giersch Maria Polo-Prieto Maurine Hammel Alexis Simon Florencia Cremonte Fernando T Avilés Nicolás Merino-Véliz Erika AV Burioli Annette F Muttray James Sherry Carol Reinisch Susan A Baldwin Stephen P Goff Maryline Houssin Gloria Arriagada Nuria Vázquez Nicolas Bierne Michael J Metzger (2019) A single clonal lineage of transmissible cancer identified in two marine mussel species in South America and Europe eLife 8:e47788.
+https://doi.org/10.7554/eLife.47788
+
 ## Inputs
 
 - ONT reads: `fastq/ONT_BMK230829-BO313-006N0002_clean.fq.gz` (example; set in `config.env`)
@@ -41,5 +44,4 @@ bash scripts/02_btn2_marker_only.sh
 # 3) Optional per-target consensus (if coverage exists)
 bash scripts/03_btn2_consensus.sh
 
-*The main source of the data is the paper: Marisa A Yonemitsu Rachael M Giersch Maria Polo-Prieto Maurine Hammel Alexis Simon Florencia Cremonte Fernando T Avilés Nicolás Merino-Véliz Erika AV Burioli Annette F Muttray James Sherry Carol Reinisch Susan A Baldwin Stephen P Goff Maryline Houssin Gloria Arriagada Nuria Vázquez Nicolas Bierne Michael J Metzger (2019) A single clonal lineage of transmissible cancer identified in two marine mussel species in South America and Europe eLife 8:e47788.
-https://doi.org/10.7554/eLife.47788
+
