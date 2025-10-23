@@ -1,0 +1,146 @@
+{
+  "inputs": [
+    {
+      "path": "fig1.data.fasta",
+      "size": 54174,
+      "sha256": "f4051cd8ac2368e71cfa19871c7e64d9200642e4252cbf545184b9ed330b14e6",
+      "md5": "f25adbd9d7fa790eb3227d3984a24ae0",
+      "n_records": 54
+    },
+    {
+      "path": "fig2.data.fasta",
+      "size": 32398,
+      "sha256": "d7fdab577ebf0f25e72ec93e713516a8e50e3adfee950dfc58f1c90f3ed9b9f1",
+      "md5": "e7ba0bc71d6f5d9ffefc40767ffacf02",
+      "n_records": 55
+    },
+    {
+      "path": "elife-47788-fig3-data1.fasta",
+      "size": 53815,
+      "sha256": "53e2d11984e984c4d07134cfc0e5bd7c98f714399413726464155f476be4bfc5",
+      "md5": "0ea73fde4c94c327540c4cee2b8f143f",
+      "n_records": 54
+    },
+    {
+      "path": "btn_markers.fasta",
+      "size": 28494,
+      "sha256": "56451bcab422c9610778e48d1e2ce760abc062806ce8dda47a16c6a962d8c429",
+      "md5": "1eab588d977c7f73d73a334803c58023",
+      "n_records": 37
+    }
+  ],
+  "output": {
+    "path": "refs/btn_markers.standardized.fasta",
+    "size": 29839,
+    "sha256": "d71dd2dccef2f57f2ac5d0af2f93f29f5698ec1fa8dae89e53cbf199b6ee815b",
+    "md5": "14d2fcffc6f241be5495c308957ec524",
+    "n_records": 45,
+    "present_loci": {
+      "EF1A": true,
+      "H4": true,
+      "mtCR": true,
+      "mtCOI": true
+    },
+    "ids": [
+      "EF1A_BTN2_H",
+      "EF1A_BTN2_H_ALT",
+      "EF1A_BTN2_Hprime",
+      "H4_BTN2_candidate_Mch23-C_M.chilensis",
+      "H4_BTN2_candidate_Mch23-E_M.chilensis",
+      "H4_BTN2_candidate_Mch41-F_M.chilensis",
+      "H4_BTN2_candidate_Mch41-G_M.chilensis",
+      "H4_BTN2_candidate_Mch41-K_M.chilensis",
+      "H4_BTN2_candidate_Mch41-M_M.chilensis",
+      "H4_BTN2_candidate_Mch42-R_M.chilensis",
+      "H4_BTN2_candidate_Mch42-S_M.chilensis",
+      "H4_BTN2_candidate_Mch42-H_M.chilensis",
+      "H4_BTN2_candidate_Mch42-I_M.chilensis",
+      "H4_BTN2_candidate_AR5-P_M.edulis",
+      "H4_BTN2_candidate_AR7-Q_M.edulis",
+      "H4_BTN2_candidate_AR7-N_M.edulis",
+      "H4_BTN2_candidate_AR7-T_M.edulis",
+      "H4_BTN2_candidate_AR7-R_M.edulis",
+      "H4_BTN2_candidate_BA30-N_M.edulis",
+      "H4_BTN2_candidate_BA30-U_M.edulis",
+      "H4_BTN2_candidate_BA30-Q_M.edulis",
+      "H4_BTN2_candidate_HO8-V_M.edulis",
+      "H4_BTN2_candidate_HO8-W_M.edulis",
+      "H4_BTN2_candidate_Castro26-A_M.chilensis",
+      "H4_BTN2_candidate_Castro26-R__M.chilensis",
+      "H4_BTN2_candidate_Castro26-N_M.chilensis",
+      "H4_BTN2_candidate_Castro26-K_M.chilensis",
+      "H4_BTN2_candidate_Castro26-O_M.chilensis",
+      "mtCR_BTN2_D_1copy",
+      "mtCR_BTN2_D_1copy_ALT",
+      "mtCR_BTN2_D_1copy_ALT2",
+      "mtCR_BTN2_D_1copy_ALT3",
+      "mtCR_BTN2_D_1copy_ALT4",
+      "mtCR_BTN2_C",
+      "mtCR_BTN2_C_ALT",
+      "mtCR_BTN2_C_ALT2",
+      "mtCR_BTN2_C_ALT3",
+      "mtCR_BTN2_C_ALT4",
+      "mtCR_BTN2_D_2copy",
+      "mtCOI_BTN2_B",
+      "mtCOI_BTN2_B_ALT",
+      "mtCOI_BTN2_Q",
+      "mtCOI_BTN2_B_ALT2",
+      "mtCOI_BTN2_B_ALT3",
+      "mtCOI_BTN2_B_ALT4"
+    ]
+  },
+  "resolved_id_clashes": [
+    [
+      "EF1A_BTN2_H",
+      "EF1A_BTN2_H_ALT"
+    ],
+    [
+      "mtCR_BTN2_D_1copy",
+      "mtCR_BTN2_D_1copy_ALT"
+    ],
+    [
+      "mtCR_BTN2_D_1copy",
+      "mtCR_BTN2_D_1copy_ALT2"
+    ],
+    [
+      "mtCR_BTN2_D_1copy",
+      "mtCR_BTN2_D_1copy_ALT3"
+    ],
+    [
+      "mtCR_BTN2_D_1copy",
+      "mtCR_BTN2_D_1copy_ALT4"
+    ],
+    [
+      "mtCR_BTN2_C",
+      "mtCR_BTN2_C_ALT"
+    ],
+    [
+      "mtCR_BTN2_C",
+      "mtCR_BTN2_C_ALT2"
+    ],
+    [
+      "mtCR_BTN2_C",
+      "mtCR_BTN2_C_ALT3"
+    ],
+    [
+      "mtCR_BTN2_C",
+      "mtCR_BTN2_C_ALT4"
+    ],
+    [
+      "mtCOI_BTN2_B",
+      "mtCOI_BTN2_B_ALT"
+    ],
+    [
+      "mtCOI_BTN2_B",
+      "mtCOI_BTN2_B_ALT2"
+    ],
+    [
+      "mtCOI_BTN2_B",
+      "mtCOI_BTN2_B_ALT3"
+    ],
+    [
+      "mtCOI_BTN2_B",
+      "mtCOI_BTN2_B_ALT4"
+    ]
+  ]
+}
